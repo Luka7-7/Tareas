@@ -1,5 +1,5 @@
 // 1. Token JWT generado manualmente (simulación)
-const JWT_TOKEN = localStorage.getItem('jwt_token') || 'eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoidXN1YXJpb19wcnVlYmEiLCJleHAiOjE3MzU2ODk2MDAsImFsZyI6IkhTMjU2In0.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.TfhtEL8GoJ_fFGwsJ9AheG3KKoyvUK5ufBRU3S7MqF4';
+const JWT_TOKEN = localStorage.getItem('jwt_token') || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoidXN1YXJpb19wcnVlYmEiLCJleHAiOjE3MzU2ODk2MDB9.uzhylqwpXH7zxP8xHWj9dE7O4VtoHVLbQLwCLmMZzm4';
 
 // 2. Función para validar el token (simulación)
 function validateToken(token) {
